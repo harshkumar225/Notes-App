@@ -1,0 +1,287 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+ 
+  background-color: rgb(36, 31, 65);
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+  color: azure;
+  font-size: 20px;
+}
+
+.nav-links{
+  height: 35px;
+  width: 100%;
+  background-color: rgba(43, 43, 164, 0.279)
+}
+
+.nav-links a{
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.main-content{
+  display: flex;
+  width: 100%px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-top: 1.5rem;
+  gap: 20px;
+
+}
+
+
+
+
+.title-box{
+  width: 100%;
+  max-width: 350px;
+  padding: 15px;
+  color: white;
+  background-color: #111827;
+  border:1px solid #374151;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.1);
+  font-size: 16px;
+  border: none;
+}
+
+.title-box:focus{
+  outline: none;
+  border: 1px solid #6366F1;
+  box-shadow: 0 0 8px rgb(99,102,241,0.4);
+}
+
+.text-area{
+   
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  
+}
+
+textarea{
+  background-color: rgba(0, 0, 0, 0.54);
+  color: white;
+  height: 560px;
+  width: 100%;
+  max-width: 700px;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 20px;
+}
+
+.Pastes-content{
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+ gap: 40px;
+ align-items: center;
+ margin-top: 45px;
+ 
+ 
+}
+
+.Pastes-content input{
+  max-width: 600px;
+  width: 100%;
+  padding: 15px;
+  padding: 15px;
+  color: white;
+  background-color: #111827;
+  border:1px solid #374151;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(99, 102, 241, 0.1);
+  font-size: 16px;
+  border: none;
+  margin-top: 45px;
+
+  
+}
+
+.Pastes-content input:focus{
+ outline: none;
+  border: 1px solid #6366F1;
+  box-shadow: 0 0 8px rgb(99,102,241,0.4);
+}
+
+.paste-list{
+  width: 100%;
+  max-width: 800px;
+  border: 2px solid rgba(245, 245, 245, 0.444);
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 15px;
+  border-radius: 10px;
+  
+
+  
+  
+}
+
+.paste-list-box{
+  border: 1px solid #475569;
+  max-width: 800px;
+  padding: 15px;
+  width:100%;
+  
+  background-color: #1e293b54;
+  font-size: 20px;
+  
+}
+
+.btn{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 7px;
+  
+}
+
+.btn button{
+  font-size: 17px;
+  border-radius: 5px;
+  border: 1px solid #475569;
+  background-color:#1E293B;
+  color: #E2E8F0;
+  margin-bottom: 30px;
+  
+  
+}
+
+.create-paste-btn{
+  border-radius: 10px;
+  border: none;
+  background-color: rgb(121, 20, 216);
+  color: whitesmoke;
+  padding: 10px;
+  font-size: 14px;
+  animation-name: shine;
+}
+
+@keyframes shine {
+  from{
+       
+  }
+
+  to{
+
+  }
+}
+
+.allpaste-head{
+    border-bottom: 1px solid whitesmoke;
+    width: 100%;
+    padding: 8px;
+    
+}
+
+.btn button svg{
+  color: wheat;
+}
+
+.paste-title{
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.paste-content{
+  color:#CBD5E1;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.date{
+  display:flex;
+  justify-content: flex-end;
+  font-size: 18px;
+  
+
+}
+
+.time{
+      display: flex;
+      justify-content: flex-end;
+      font-size: 16px;
+      
+      
+}
+
+.active-link{
+   color: orange !important;
+}
+
+
+.copy-btn-head{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(132, 82, 17);
+}
+
+
+
+@media (max-width:738px) {
+  
+  .text-area{
+    width: 95%;
+    padding-left: 15px;
+    height: auto;
+    
+  }
+
+.btn button{
+
+  margin-bottom: 25px;
+}
+
+  
+
+.create-paste-btn{
+ 
+  padding: 8px 10px;
+  font-size: 12px;
+
+}
+
+
+.pastes-content{
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.main-paste-box{
+  padding: 10px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
