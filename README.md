@@ -2,7 +2,7 @@
 
 ## 📸 Screenshot
 
-![Notes App Screenshot](https://raw.githubusercontent.com/harshkumar225/Notes-App/main/your-screenshot-file.png)
+![Notes App Screenshot](https://github.com/harshkumar225/Notes-App/blob/main/Screenshot%202026-06-19%20100031.png)
 
 
 A simple and efficient Notes application built with **ReactJS**.  
